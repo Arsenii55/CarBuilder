@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+    Car.Builder carbuilder = new Car.Builder("Bmw",4);
+    Car car = carbuilder.setDoorsquan(5).build();
+    Car car2 = carbuilder.setDoorsquan(3).build();
     }
 }
